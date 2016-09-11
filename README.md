@@ -1,0 +1,11 @@
+# hw2_jessmchang_joystick
+
+
+Link to demo video: https://youtu.be/z--WeZ0n9oE
+
+For my text entry device, I chose to create a circular device with a joystick made with rubber bands. There would be 6 switches around the circle, made with copper tape, each representing a group of letters. For example, the Northwest switch would represent “QWERT”. There would be a primary switch in the middle of the device which would serve as the letter selector once the group of letters has been selected. Because I only had one switch to select letters, I had to use that same switch to indicate spaces (a one second button hold would output a space). This was my first time playing around with copper tape and I wanted to challenge myself—it turned out to be a lot difficult than I thought because feedback from copper tape connections is not as strong as normal button switches.
+
+Writing the software was challenging and unfortunately doesn’t work accurately at the moment. But the basic operation is that a user would choose a group of letters, say “QWERT”. Then the device would go into “letter mode“ where the East/west switches would act as left/right keys, and the user would browse through each letter and select it by pressing the middle switch. I ended up not having too much time to write software but it turns out that would be the most challenging part of this assignment because I had very minimal hardware/switches. I had to utilize the middle switch to not only select letters but also act as a “space”—a long button hold would generate a space. However I had some debouncing issues, so I wasn’t able to figure out how to time the button hold correctly…
+
+
+Through this assignment I learned to manage my wires well by having a protoboard at the bottom of the device, and braiding all the wires coming out from it to the breadboard. Because of that I didn’t have any issues with hardware, and hardware works 100%. In the future, I’d want to look into soldering on headers so debugging would be a lot less time consuming. I’d also spend more time on software and not underestimate the different factors that come into play like debouncing issues. I felt like this assignment was on the hard side mainly because of the very limited time we had to work on it and limited access to laser cutters, etc.
